@@ -1,25 +1,34 @@
 <template>
 	<div>
-		<div class="video__wrapper">
-			<img src="https://picsum.photos/1080/1920" class="video__image" />
+		<div class="relative">
+			<img
+				src="https://picsum.photos/1080/1920"
+				class="aspect-video object-cover"
+			/>
 			<span class="video__time">14:10</span>
 		</div>
 
-		<h4 class="video__title">Playing Fortnite all day</h4>
+		<div class="flex gap-3 items-start mt-2">
+			<img src="https://picsum.photos/36/36" class="rounded-full" />
+			<div class="grow">
+				<h4 class="line-clamp-2 video__title">
+					<span class="video__subtitle">Playing Fortnite</span>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+					consectetur?
+				</h4>
+
+				<div class="text-sm text-gray-500">
+					<div>extratv</div>
+					<div>12M views . 2 days ago</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
-<style>
-.video__image {
-	display: block;
-	max-width: 100%;
-	aspect-ratio: 2 / 1;
-	object-fit: cover;
-}
-
-.video__title {
-	margin-top: 0px;
-	margin-bottom: 0px;
+<style scoped>
+.video__subtitle {
+	font-size: 1.2rem;
 }
 
 .video__time {
@@ -30,10 +39,5 @@
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
-}
-
-.video__wrapper {
-	display: inline-block;
-	position: relative;
 }
 </style>
