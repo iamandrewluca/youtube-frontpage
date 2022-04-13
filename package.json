@@ -6,7 +6,8 @@
 		"dev": "vite",
 		"build": "vue-tsc --noEmit && vite build",
 		"preview": "vite preview",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"postbuild": "mv dist docs"
 	},
 	"dependencies": {
 		"@jagaad/prettier-config": "^1.1.1",
