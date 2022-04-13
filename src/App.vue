@@ -19,7 +19,7 @@ import AppSidebar from './components/AppSidebar.vue';
 				<AppGrid />
 
 				<footer class="p-3 bg-yellow-100 text-center sticky bottom-0">
-					Made with ❤️ by Students
+					Made with 🌸 by Happy Students
 				</footer>
 			</div>
 		</div>
