@@ -13,7 +13,7 @@ import AppSidebar from './components/AppSidebar.vue';
 			<AppSidebar />
 			<div>
 				<div class="badge__container">
-					<AppBadge v-for="i in 20">Comedies {{ i }}</AppBadge>
+					<AppBadge v-for="i in 50">Comedies {{ i }}</AppBadge>
 				</div>
 
 				<AppGrid />
