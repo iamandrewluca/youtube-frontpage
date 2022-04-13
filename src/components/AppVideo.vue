@@ -16,6 +16,7 @@ defineProps({
 			<img :src="avatar" class="rounded-full" />
 			<div class="grow">
 				<h4 class="line-clamp-2 video__title">
+					<span class="video__subtitle">Playing Fortnite</span>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
 					consectetur?
 				</h4>
@@ -30,6 +31,10 @@ defineProps({
 </template>
 
 <style scoped>
+.video__subtitle {
+	font-size: 1.2rem;
+}
+
 .video__time {
 	background-color: black;
 	color: white;
